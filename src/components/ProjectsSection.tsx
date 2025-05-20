@@ -1,6 +1,6 @@
 
 import { projects } from '../data/projects';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 const ProjectsSection = () => (
     <section id="projects" className="min-h-screen flex flex-col items-center bg-gray-800">
     <div className="max-w-8xl w-full mx-auto px-20 py-16">
@@ -41,7 +41,7 @@ const ProjectsSection = () => (
                   <Github className="mr-1" size={20} /> Code
                 </a>
 
-                {project.liveDemoLink && (
+                {/* {project.liveDemoLink && (
                   <a
                     href={project.liveDemoLink}
                     target="_blank"
@@ -50,7 +50,7 @@ const ProjectsSection = () => (
                   >
                     <ExternalLink className="mr-1" size={20} /> Live Demo
                   </a>
-                )}
+                )} */}
               </div>
             </div>
           </div>

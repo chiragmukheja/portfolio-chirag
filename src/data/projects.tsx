@@ -5,7 +5,7 @@ export const projects = [
         description:"A React-based task management platform where admins can assign tasks to employees in real time. The dashboard reflects task status dynamically — categorized into New, Pending, Completed, and Deleted — for both admins and employees, enabling clear task tracking and efficient workflow visibility.", 
         image: "/assets/Project1.png", 
         codeLink: "https://github.com/chiragmukheja/Employee-Management-System.git", 
-        liveDemoLink: "https://employee-management-system-cm.vercel.app/" 
+        // liveDemoLink: "https://employee-management-system-cm.vercel.app/" 
     },
     { 
         id: 2, 
@@ -13,7 +13,7 @@ export const projects = [
         description:"A scalable backend architecture for an e-commerce platform built with Node.js, featuring secure authentication using JWT, session handling, and cookies. Includes robust add-to-cart functionality and route protection — all structured to support real-world application extensibility.", 
         image: "/assets/Project2.png", 
         codeLink: "https://github.com/chiragmukheja/SCATH-Ecom.git", 
-        liveDemoLink: "https://yourproject2demo.com" 
+        // liveDemoLink: "https://yourproject2demo.com" 
     },
     { 
         id: 3, 
