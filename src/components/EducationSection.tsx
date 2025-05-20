@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { educationData } from '../data/education';
 import WaveBackground from './WaveBg';
 const EducationSection = () => (

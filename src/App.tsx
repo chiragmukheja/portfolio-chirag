@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HomeSection from './components/HomeSection';
 import AboutSection from './components/AboutSection';
@@ -8,7 +8,7 @@ import EducationSection from './components/EducationSection';
 import ContactSection from './components/ContactSection';
 
 const App = () => {
-  const [scrolled, setScrolled] = useState(false);
+  // const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
   const scrollToSection = (id: string) => {
@@ -18,8 +18,8 @@ const App = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const offset = window.scrollY;
-      setScrolled(offset > 100);
+      // const offset = window.scrollY;
+      // setScrolled(offset > 100);
 
       const sections = document.querySelectorAll('section');
       sections.forEach(section => {

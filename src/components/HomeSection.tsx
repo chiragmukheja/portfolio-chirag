@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Download } from 'lucide-react';
 const HomeSection = () => (
     <section id="home" className="min-h-screen flex items-center justify-between px-16 md:px-24 lg:px-32 relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">

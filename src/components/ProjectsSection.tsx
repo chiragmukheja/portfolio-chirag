@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { projects } from '../data/projects';
 import { Github, ExternalLink } from 'lucide-react';
 const ProjectsSection = () => (

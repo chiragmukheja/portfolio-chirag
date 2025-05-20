@@ -1,4 +1,4 @@
-import React from 'react';
+
 const WaveBg = () => (
   <div className="absolute inset-0 w-full h-full overflow-hidden opacity-10">
     <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="w-full h-full">

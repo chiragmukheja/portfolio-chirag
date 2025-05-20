@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { skillData } from '../data/skills';
 const SkillsSection = () => (
     <section id="skills" className="min-h-screen flex flex-col items-center justify-center bg-gray-900 ">

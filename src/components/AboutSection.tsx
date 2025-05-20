@@ -1,4 +1,4 @@
-import React from 'react';
+
 const AboutSection = () => (
     <section id="about" className="min-h-screen flex items-center justify-center bg-gray-900 relative px-12 py-20 overflow-hidden">
     {/* Decorative Background Element - Top Right */}
